@@ -17,13 +17,13 @@ float idealWeight(float a, char b){
 int main(){
     float height;
     char gender;
-    cout<<"Qual seu genero?"<<endl;
+    cout<<"What is your gender?"<<endl;
     cin>>gender;
 
     do{
-        cout<<"Qual sua altura?"<<endl;
+        cout<<"What is your height?"<<endl;
         cin>>height;
     }while(height <= 0);
 
-    cout<<"Seu resultado: "<<idealWeight(height, gender)<<endl;
+    cout<<"your ideal weight is: "<<idealWeight(height, gender)<<endl;
 }
