@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int maximoDivisorComum(int a, int b){
-    int resto;
+int greatestCommonDivisor(int a, int b){
+    int remainder;
 
     while(a != b){
         if(a > b){
@@ -17,10 +17,10 @@ int maximoDivisorComum(int a, int b){
 }
 
 int main(){
-    float valor1, valor2;
-    cout<<"Digite dois valores"<<endl;
-    cin>>valor1>>valor2;
-    maximoDivisorComum(valor1, valor2);
+    float value1, value2;
+    cout<<"Enter two values"<<endl;
+    cin>>value1>>value2;
+    greatestCommonDivisor(value1, value2);
 
-    cout<<"O maximo divisor comum e: "<<maximoDivisorComum(valor1, valor2)<<endl;
+    cout<<"The Greatest common divisor is: "<<greatestCommonDivisor(value1, value2)<<endl;
 }
