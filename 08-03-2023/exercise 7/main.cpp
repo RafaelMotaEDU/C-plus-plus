@@ -30,8 +30,8 @@ int main(){
 
     cout<<endl;
 
-    cout<<"Resultado do Valor: "<<result<<endl;
-    cout<<"Resultado do 5 - 15 : "<<result2<<endl;
+    cout<<"Value result: "<<result<<endl;
+    cout<<"Result of 5 - 15: "<<result2<<endl;
 
     return 0;
 }
